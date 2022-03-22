@@ -15,3 +15,8 @@ This is just a sandbox for learning traditional WordPress stuff.
     - bloginfo('description') - Defined under wp-admin > Settings > Tagline
     - array() - Creates an array
     - count() - Counts the number of elements in an array
+    - have_posts() - WordPress function that returns truthy while there are posts
+    - the_post() - WordPress function that gets post data of the current post being iterated over.  By default it will iterate over the last 10 posts.
+    - the_permalink() - WordPress function that gets the current post's link
+    - the_title() - WordPress function that gets the current post's title
+    - the_content() - WordPress function that gets the current post's content
