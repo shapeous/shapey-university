@@ -13,3 +13,5 @@ This is just a sandbox for learning traditional WordPress stuff.
   - WordPress Functions:
     - bloginfo('name') - Defined under wp-admin > Settings > Site Title
     - bloginfo('description') - Defined under wp-admin > Settings > Tagline
+    - array() - Creates an array
+    - count() - Counts the number of elements in an array
