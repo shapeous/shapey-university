@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <?php get_header() ?>
   <h1><?php bloginfo('name') ?></h1>
   <h2><?php bloginfo('description') ?></h2>
   <?php
@@ -18,6 +19,7 @@
       <p><?php the_content(); ?></p>
       <hr>
     <?php }
+    get_footer();
   ?>
   <!--script src="js/scripts.js"></script-->
 </body>

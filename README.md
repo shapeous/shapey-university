@@ -21,8 +21,12 @@ This is just a sandbox for learning traditional WordPress stuff.
     - the_permalink() - WordPress function that gets the current post's link
     - the_title() - WordPress function that gets the current post's title
     - the_content() - WordPress function that gets the current post's content
+    - get_header() - Opt-in to importing the global header for a page or post
+    - get_footer() - Opt-in to importing the global footer for a page or post
 
 ## Files within the theme folder
   - index.php - Default file used for all posts and pages
   - single.php - If it exist WordPress will use this file for individual posts
   - page.php - If it exist WordPress will use this file for individual pages
+  - header.php - Allow us to define a global header.  This is an opt-in feature.
+  - footer.php - Allow us to define a global footer.  This is an opt-in feature.
