@@ -23,6 +23,10 @@ This is just a sandbox for learning traditional WordPress stuff.
     - the_content() - WordPress function that gets the current post's content
     - get_header() - Opt-in to importing the global header for a page or post
     - get_footer() - Opt-in to importing the global footer for a page or post
+    - wp_head() - Includes whatever WordPress, installed plug-ins and any file we ourselves specified under functions.php
+    - add_action() - Allow us to run callback function at different hooks within WordPress execution.  This function is used within the context of "functions.php".
+    - wp_enqueue_style() - Names and loads a stylesheet.
+    - get_stylesheet_uri() - Returns style.css.
 
 ## Files within the theme folder
   - index.php - Default file used for all posts and pages
@@ -30,3 +34,4 @@ This is just a sandbox for learning traditional WordPress stuff.
   - page.php - If it exist WordPress will use this file for individual pages
   - header.php - Allow us to define a global header.  This is an opt-in feature.
   - footer.php - Allow us to define a global footer.  This is an opt-in feature.
+  - functions.php - Allow us to interface with the WordPress framework.

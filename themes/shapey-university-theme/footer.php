@@ -1,1 +1,4 @@
-<p>Greetings from footer.php!</p>
+  <small>Greetings from footer.php!</small>
+  <!--script src="js/scripts.js"></script-->
+</body>
+</html>
