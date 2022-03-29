@@ -27,6 +27,7 @@ This is just a sandbox for learning traditional WordPress stuff.
     - add_action() - Allow us to run callback function at different hooks within WordPress execution.  This function is used within the context of "functions.php".
     - wp_enqueue_style() - Names and loads a stylesheet.
     - get_stylesheet_uri() - Returns style.css.
+    - wp_footer() - Similar to "wp_head()", it also loads the admin menu bar if the user is logged in.
 
 ## Files within the theme folder
   - index.php - Default file used for all posts and pages
