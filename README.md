@@ -36,3 +36,9 @@ This is just a sandbox for learning traditional WordPress stuff.
   - header.php - Allow us to define a global header.  This is an opt-in feature.
   - footer.php - Allow us to define a global footer.  This is an opt-in feature.
   - functions.php - Allow us to interface with the WordPress framework.
+
+## University Static
+  - Repo:
+    - URL:  https://github.com/LearnWebCode/university-static
+    - Path: ~\Local Sites\university-static
+      - `PS ~\Local Sites> git clone https://github.com/LearnWebCode/university-static.git`
