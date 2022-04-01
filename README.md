@@ -31,6 +31,7 @@ This is just a sandbox for learning traditional WordPress stuff.
     - get_stylesheet_uri() - Returns style.css.
     - wp_footer() - Similar to "wp_head()", it also loads the admin menu bar if the user is logged in.
     - get_theme_file_uri() - Given a relative theme folder path, it generates a full URL that points to the current theme folder.
+    - site_url() - Retrieves the URL for the current site
 
 ## Files within the theme folder
   - index.php - Default file used for all posts and pages
